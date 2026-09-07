@@ -1,17 +1,7 @@
-# Workflow Notes
+# Team Workflow Notes
 
-This repository is intentionally set up with repository history and branch workflow issues:
-
-- direct commits on `main`
-- poor commit messages
-- bad branch names
-- a branch with a merge conflict in `src/config.js`
-- an abandoned branch containing partial changes
-
-Use this file as a reference when reviewing the repo history and workflow.
-
-- current workflow is inconsistent and needs cleanup.
-
-- small update from test123 branch.
-
-- abandoned note on newbranch.
+1. Create a feature branch from `main` for each change.
+2. Make focused commits with clear, imperative messages.
+3. Run relevant checks before opening a Pull Request.
+4. Review Pull Requests before merging into `main`.
+5. Resolve conflicts locally and never force-push shared history.

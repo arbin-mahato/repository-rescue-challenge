@@ -26,7 +26,7 @@ Practice Git repository diagnosis, branch workflow cleanup, pull request discipl
 3. Start the application:
 
    ```bash
-   npm run start-prod
+   npm start
    ```
 
 ## Investigation Commands
@@ -55,11 +55,11 @@ Submit one PDF containing five screenshots:
 
 Inspect the branch history and repository state to identify workflow problems such as:
 
-* messy commit history
-* direct commits on `main`
-* poor branch naming
-* inconsistent collaboration practices
-* branches that should be isolated from production work
+- messy commit history
+- direct commits on `main`
+- poor branch naming
+- inconsistent collaboration practices
+- branches that should be isolated from production work
 
 Review the repository using:
 
@@ -93,9 +93,9 @@ git commit -m "fix: update workflow documentation"
 
 The objective is to demonstrate:
 
-* branch isolation
-* organized development workflow
-* avoiding direct development on `main`
+- branch isolation
+- organized development workflow
+- avoiding direct development on `main`
 
 ---
 
@@ -105,9 +105,9 @@ Create a Pull Request from one of your feature branches into `main`.
 
 The Pull Request description should include:
 
-* What was changed
-* Why the change was needed
-* How the change was verified
+- What was changed
+- Why the change was needed
+- How the change was verified
 
 Review the existing commit history and identify at least one unclear or poor commit message.
 
@@ -130,8 +130,8 @@ npm start
 
 ## Notes
 
-* The application reads the port from `process.env.PORT` and falls back to `3000` if the variable is not provided.
-* The README intentionally contains an incorrect startup command to simulate environment drift.
-* Follow safe Git practices throughout the exercise by performing development on feature branches and integrating changes through a Pull Request rather than committing directly to `main`.
+- The application reads the port from `process.env.PORT` and falls back to `3000` if the variable is not provided.
+- The README intentionally contains an incorrect startup command to simulate environment drift.
+- Follow safe Git practices throughout the exercise by performing development on feature branches and integrating changes through a Pull Request rather than committing directly to `main`.
 
 > Temporary test change on temp branch.
